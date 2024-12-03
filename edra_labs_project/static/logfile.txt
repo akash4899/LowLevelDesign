@@ -1,0 +1,12 @@
+n operating systems such as CP/M, where the operating system does not keep track of the file size in bytes, the end of a text file is denoted by placing one or more special characters, known as an end-of-file (EOF) marker, as padding after the last line in a text file. In modern operating systems such as DOS, Microsoft Windows and Unix-like systems, text files do not contain any special EOF character, because file systems on those operating systems keep track of the file size in bytes.
+n operating systems such as CP/M, where the operating system does not keep track of the file size in bytes, the end of a text file is denoted by placing one or more special characters, known as an end-of-file (EOF) marker, as padding after the last line in a text file. In modern operating systems such as DOS, Microsoft Windows and Unix-like systems, text files do not contain any special EOF character, because file systems on those operating systems keep track of the file size in bytes.
+global last_position
+- The server must actively push updates to the clients to ensure minimal delay, achieving as close to real-time updates as possible.
+- Given that the log file might be very large (potentially several gigabytes), you'll need to develop a strategy for efficiently fetching the last 10 lines without processing the entire file.
+- The server should transmit only new additions to the file to the clients, rather than resending the file in its entirety.
+- It's essential that the server supports concurrent connections from multiple clients without performance degradation.
+- The client's web page should load promptly without staying in a loading state after the initial request, and it should not require reloading to display new updates.
+- Usage of pre-built external libraries or tools for tailing the file or similar functionalities is prohibited.
+uifhaiughcdsuagvudsghavugshda9uvg9usgv U
+AKASSSDUDIUIubchQOI211763217638126319263
+SHDFUISDUVBUOSbvou'BIPHCOIHD9387E8937E9028Q09E8Q209E809Q

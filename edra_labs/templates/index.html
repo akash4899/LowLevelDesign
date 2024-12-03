@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log Monitor</title>
+</head>
+<body>
+    <div id="log"></div>
+    <script>
+        const eventSource = new EventSource('/log_updates');
+        eventSource.onmessage = (event) => {
+            document.getElementById('log').innerHTML += event.data + '<br>';
+        };
+    </script>
+</body>
+</html>

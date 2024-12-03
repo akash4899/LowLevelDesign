@@ -1,0 +1,26 @@
+
+Send message to Taniya.
+
+1. The elevator system should consist of multiple elevators serving multiple floors.
+2. Each elevator should have a capacity limit and should not exceed it.
+3. Users should be able to request an elevator from any floor and select a destination floor.
+4. The elevator system should efficiently handle user requests and optimize the movement of elevators to minimize waiting time.
+5. The system should prioritize requests based on the direction of travel and the proximity of the elevators to the requested floor.
+6. The elevators should be able to handle multiple requests concurrently and process them in an optimal order.
+7. The system should ensure thread safety and prevent race conditions when multiple threads interact with the elevators.
+
+https://www.linkedin.com/in/akash-gupta-81b8b31b1/
+
+customer -> view menu, place order, make reseervations
+inventory -> ingredients, menu items
+order_processing->billing, payment, order preparation
+multiple payment methods
+staff info-> roles, schedules, performance tracking
+I’m only going to talk about INET (i.e. IPv4) sockets, but they account for at least 99% of the sockets in use. And I’ll only talk about STREAM (i.e. TCP) sockets - unless you really know what you’re doing (in which case this HOWTO isn’t for you!), you’ll get better behavior and performance from a STREAM socket than anything else. I will try to clear up the mystery of what a socket is, as well as some hints on how to work with blocking and non-blocking sockets. But I’ll start by talking about blocking sockets. You’ll need to know how they work before dealing with non-blocking sockets.
+
+Part of the trouble with understanding these things is that “socket” can mean a number of subtly different things, depending on context. So first, let’s make a distinction between a “client” socket - an endpoint of a conversation, and a “server” socket, which is more like a switchboard operator. The client application (your browser, for example) uses “client” sockets exclusively; the web server it’s talking to uses both “server” sockets and “client” sockets.
+
+
+
+this is a prgrm that needs t e run
+why is it a question that i needs t do

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log File Monitor</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.js"></script>
+</head>
+<body>
+<h1>User Updated Files Display it over here:</h1>
+<div id="output"></div>
+
+<script>
+    var socket = io("http://127.0.0.1:5000");
+    socket.on('log_updates', function(data) {
+        console.log("data", data);
+        var div = document.getElementById('output');
+        var lines = data.content.split('\n');
+        div.innerHTML = '';
+        lines.forEach(function(line) {
+            var p = document.createElement('p');
+            p.textContent = line;
+            div.appendChild(p);
+        });
+    });
+</script>
+</body>
+</html>
